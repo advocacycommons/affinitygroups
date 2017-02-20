@@ -1,0 +1,17 @@
+@import './forms.scss';
+
+.signup {
+  .field {
+    display: block;
+  }
+
+  &.signup-initial {
+    .field {
+      display: none;
+
+      &.field-initial {
+        display: block;
+      }
+    }
+  }
+}
